@@ -1,0 +1,9 @@
+<RadSideDrawer tkExampleTitle tkToggleNavButton>
+    <StackLayout tkDrawerContent class="menu">
+        <Label text="Home" [nsRouterLink]="['/']"></Label>
+        <Label text="Example" [nsRouterLink]="['/example']"></Label>
+    </StackLayout>
+    <StackLayout tkMainContent>
+        <router-outlet></router-outlet>
+    </StackLayout>
+</RadSideDrawer>

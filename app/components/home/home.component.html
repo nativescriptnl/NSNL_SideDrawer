@@ -1,0 +1,17 @@
+<ActionBar title="Home" class="actionbar">
+    <NavigationButton visibility="collapsed"></NavigationButton>
+    <ActionItem ios.position="left" (tap)="toggleTheMenu()">
+        <Label text="Menu"></Label>
+    </ActionItem>
+</ActionBar>
+
+<ScrollView class="page-wrapper">
+    <StackLayout>
+        <StackLayout class="picture-wrapper">
+            <Image class="picture" src="~/assets/images/nativescript-nl.png"></Image>
+        </StackLayout>
+        <StackLayout class="page">
+            <Label class="header" text="Hello home!"></Label>
+        </StackLayout>
+    </StackLayout>
+</ScrollView>

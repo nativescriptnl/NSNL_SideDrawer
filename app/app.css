@@ -1,0 +1,69 @@
+/** ACTIONBAR **/
+.actionbar {
+    background-color: rgb(255, 255, 255);
+    color: rgb(174, 28, 40);
+    font-weight: bold;
+    font-size: 20;
+    font-family: calibri, helvetica, sans-serif;
+}
+
+/** PAGE **/
+.page-wrapper {
+    background-color: rgb(245, 245, 245);
+}
+
+.page {
+    padding: 20 20 20 20;
+}
+
+/** PICTURES **/
+.picture-wrapper {
+    background-color: rgb(255, 255, 255);
+    padding: 20 0 20 0;
+}
+
+.picture {
+    height: 90;
+}
+
+/** TEXT **/
+.header {
+    font-size: 18;
+    font-weight: bold;
+    font-family: calibri, helvetica, sans-serif;
+    color: rgb(174, 28, 40);
+    margin: 0 0 0 5;
+}
+
+.text {
+    font-size: 16;
+    font-family: calibri, helvetica, sans-serif;
+    color: rgb(33, 70, 139);
+    margin: 10 0 0 0;
+    background-color: rgb(245, 245, 245);
+}
+
+/** BUTTONS **/
+.button {
+    border-radius: 5;
+    background-color: rgb(255, 127, 0);
+    padding-top: 7;
+    padding-bottom: 7;
+    width: 80%;
+    font-weight: bold;
+    font-size: 16;
+    font-family: calibri, helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 10 0 10 0;
+}
+
+.menu {
+    background-color: rgb(174, 28, 40);
+    padding: 20;
+    color: rgb(255, 255, 255);
+}
+
+.menu Label {
+    padding: 0 0 10 0;
+}
