@@ -12,9 +12,11 @@ export const AppRoutes: any = [
             {
                 path: "", component: HomeWrapperComponent,
                 children: [
-                    {path: "", component: HomeComponent},
-                    {path: "example", component: ExampleComponent}
+                    {path: "", component: HomeComponent}
                 ]
+            },
+            {
+                path: "example", component: ExampleComponent
             }
         ]
     }
